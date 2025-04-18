@@ -31,5 +31,5 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: trained-model
-        path: saved_model/  # Directory where your model is saved
+        path: smodel/ model.pkl # Directory where your model is saved
 
